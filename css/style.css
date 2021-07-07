@@ -1,0 +1,61 @@
+body {
+    background: hsl(0, 0%, 95%);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+}
+p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 100px;
+}
+.container {
+    display: flex;
+    max-width: 870px;
+    margin: 100px auto;
+}
+
+.item-1 h1, .item-2 h1, .item-3 h1 {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    margin: 40px auto;
+
+}
+.item-1, .item-2, .item-3 {
+    padding: 40px;
+}
+.item-1 {
+    background: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+.item-2 {
+    background: hsl(184, 100%, 22%);
+}
+
+.item-3 {
+    background: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.btn-1, .btn-2, .btn-3 {
+    background: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+.btn-1 {
+    color:hsl(31, 77%, 52%);
+}
+
+.btn-2 {
+    color:hsl(184, 100%, 22%);
+    
+}
+
+.btn-3 {
+    color:hsl(179, 100%, 13%);
+}
+
+.attribution > a {
+    text-decoration: none;
+}
